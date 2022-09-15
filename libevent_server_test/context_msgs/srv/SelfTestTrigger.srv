@@ -1,0 +1,9 @@
+# 任务开始前的自检
+uint8 TEST_FOR_TASK = 0
+# 状态监控
+uint8 TEST_FOR_MONITOR = 1
+# 自检的目的
+uint8 intent
+---
+bool success
+SelfTestReport status

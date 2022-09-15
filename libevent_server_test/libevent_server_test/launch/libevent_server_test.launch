@@ -1,0 +1,6 @@
+<launch>
+    <env name="ROSCONSOLE_CONFIG_FILE" value="$(eval optenv('ROSCONSOLE_CONFIG_FILE', find('libevent_server_test') + '/config/log.conf'))" />
+    <node name="libevent_server_test_node" pkg="libevent_server_test" type="libevent_server_test_node" output="screen">
+        <rosparam file="$(find libevent_server_test)/config/libevent_server_test.yaml" command="load"/>
+    </node>
+</launch>

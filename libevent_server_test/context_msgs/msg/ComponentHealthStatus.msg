@@ -1,0 +1,11 @@
+std_msgs/Time timestamp
+# 组件ID，参考yjh_common中的公共定义
+uint8 componentId
+# 健康状态，参考yjh_common中的公共定义
+uint8 status
+# 额外的提示信息
+string message
+# 错误码
+uint32 error_code
+# 归属的设备类型名
+string typeName

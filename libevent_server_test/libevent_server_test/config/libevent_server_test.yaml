@@ -1,0 +1,12 @@
+# 本体低电量阈值
+low_battery_level: 20
+# 智能剥线器低电量阈值(移到launch文件中，其他节点可见，任务节点共用)
+# low_stripper_battery_level: 40
+#软开关按下是否手臂下电
+power_off_when_soft_switch_on: true
+# 电池温度超过50度可能影响充电
+#battery_temperature_warning_threshold: 44
+# 5级风，8～10m/s
+max_wind_speed: 8
+# 自检时是否将手臂移动到建模位置
+move_arm_to_model_pose: false
