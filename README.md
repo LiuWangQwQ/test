@@ -10,4 +10,9 @@ git branch -d dev           把a分支删除
 git branch -D dev           强制删除a分支
 git merge dev               合并分支
 git diff                    查看改动
+
+
+git clone git@github.com:LiuWangQwQ/test.git
+git push origin main 
+
 ```
